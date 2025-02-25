@@ -7,13 +7,20 @@
 ## Структура проекта и назначение файлов
 
 src/ - каталог с исполняемыми скриптами приложения
+
 ├── api_app_titanic.py - API приложение на FASTAPI
+
 ├── dataset_titanic_modified.py - создание "плохого" датасета
+
 ├── make_dataset_titanic.py - сохранение датасета Titanic
+
 └── model_titanic.py - обучение модели на данных датасета Titanic
 
+
 test/
+
 ├── api_app_test.py - модульное тестирование API приложения
+
 └── dataset_test.py - функциональное тестирование предсказательной способности модели
 
 ./docker_container_run.bat - запуск docker контейнера с приложением из образа (Windows)
